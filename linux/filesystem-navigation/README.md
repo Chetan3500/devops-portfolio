@@ -12,6 +12,7 @@ This folder tracks my ability to navigate Linux filesystems on **remote servers 
 ## Versions
 
 - v1.0 — [Survival navigation](./v1.0/README.md)
+- v1.1 — [Efficiency upgrade](./v1.1/README.md)
 
 Each version folder contains:
 
