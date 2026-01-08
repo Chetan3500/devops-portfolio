@@ -11,7 +11,7 @@ Every skill here is demonstrated through **working configurations, command execu
 
 This repository contains my **DevOps skill execution history**.
 
-> *Execution history* means that each capability is shown through real work:
+> _Execution history_ means that each capability is shown through real work:
 > infrastructure setup, system configuration, troubleshooting, and iteration —
 > not just explanations or screenshots.
 
@@ -74,6 +74,8 @@ Epics represent long-term DevOps domains that are developed incrementally and ma
 ## Currently working on
 
 The following Epics are under active development and updated regularly:
+
+- [Linux](docs/linux/)
 
 > Completed Epics remain versioned and documented, but are marked as stable.
 
