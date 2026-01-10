@@ -1,94 +1,72 @@
-# Linux Filesystem Navigation via SSH — v1.0
+# Linux Filesystem Navigation via SSH — v1.1
+
+> Previous iteration: [v1.0](https://github.com/Chetan3500/devops-portfolio/blob/Linux-v1.0-artifact/docs/linux/filesystem-navigation/README.md)
 
 ## Introduction
 
-Navigating a remote Linux server is often the first real interaction engineers have with a production-like system.
-At this stage, the primary challenge is not speed or sophistication, but **orientation and safety**.
+Navigating a remote Linux server is a routine task for DevOps engineers.
+As systems grow in complexity, the challenge shifts from basic movement to **maintaining context and operating safely**.
 
-This post documents **v1.0** of this workcard, focused on building the foundational skills needed to move confidently within a remote Linux filesystem.
+This post documents **v1.1** of this workcard, focused on **efficient navigation** and **safe inspection** while working inside deep or unfamiliar directory structures.
 
 ---
 
 ## Problem Statement
 
-When working on a remote server:
+When switching frequently between:
 
-- It’s easy to lose track of where you are
-- Deep directory structures can be disorienting
-- Touching the wrong files can have consequences
+- logs
+- configuration files
+- application directories
 
-The goal of this iteration was simple:
+it’s easy to lose context or open the wrong file unintentionally.
 
-> **Move through a remote Linux filesystem without getting lost or causing damage.**
+The goal of this iteration was:
+
+> **Move across multiple directories efficiently while preserving context and minimizing risk.**
 
 ---
 
 ## Approach
 
-The approach prioritized **clarity over efficiency**.
+This iteration builds on navigation fundamentals and introduces:
 
-I limited the scope to three essential commands:
+- **directory stack–based movement**
+- **safe, read-only file inspection**
+- **structure awareness before interaction**
 
-- `ssh` — remote access
-- `pwd` — location awareness
-- `cd` — navigation
-
-By constraining the toolset, I focused on understanding **filesystem layout and recovery techniques** rather than memorizing commands.
+The emphasis is on **control and safety**, not speed.
 
 ---
 
 ## Key Concepts Learned
 
-### Remote Access with SSH
+### Context-Preserving Navigation
 
-`ssh` provides full access to a remote system.
-This reinforced the need for cautious, deliberate actions — especially on unfamiliar machines.
+- `pushd` and `popd` enable movement across multiple directories while preserving history
+- `cd -` allows instant toggling between the current and previous location
+- `dirs -v` provides indexed visibility into the directory stack
 
----
-
-### Location Awareness
-
-`pwd` became a defensive tool rather than an occasional check.
-
-Knowing _exactly_ where I was at all times reduced mistakes and uncertainty.
+These tools eliminate guesswork during backtracking.
 
 ---
 
-### Navigation Fundamentals
+### Understanding Directory Structure
 
-Using `cd` with:
-
-- **Absolute paths** for predictability
-- **Relative paths** for efficiency once context was clear
-
-Understanding when to use each made navigation more intentional.
+- `tree` and `ls -R` help visualize deep or unfamiliar directory layouts
+- This prevents blindly entering directories without understanding their structure
 
 ---
 
-### Standard Linux Directories
+### Safe File Inspection
 
-Learning the purpose of common directories improved decision-making:
+Before opening or editing unknown files:
 
-- `/etc` — configuration
-- `/var/log` — logs
-- `/home` — user environments
+- `file` identifies file type
+- `less` allows safe, read-only viewing
+- `head` provides a quick preview
 
-This turned navigation into a purposeful action rather than guesswork.
-
----
-
-## Recovery Strategies
-
-Getting lost is inevitable. Recovery is a skill.
-
-The following commands formed a reliable reset toolkit:
-
-- `cd ..`
-- `cd /`
-- `cd ~`
-- `pwd`
-
-With these, I could always regain orientation quickly.
+These commands reduce the risk of accidental execution or modification.
 
 ---
 
@@ -96,38 +74,37 @@ With these, I could always regain orientation quickly.
 
 By the end of this iteration, I could:
 
-- Navigate remote systems with confidence
-- Locate configuration files and logs intentionally
-- Recover quickly from disorientation
-- Understand filesystem structure instead of memorizing paths
+- Move confidently between logs, configs, and app directories
+- Preserve navigation context during troubleshooting
+- Inspect unknown files safely
+- Understand directory structure before acting
 
 ---
 
 ## Demo
 
-🎥 [**YouTube v1.0 — Navigating /etc, /var, /home — Linux Filesystem (Remote SSH)**](https://youtu.be/6ulATWG-vR0)
+🎥 [**YouTube v1.1 — Directory Stack (pushd, popd) — Linux Filesystem**](https://youtu.be/dfw3tnPdwnY)
 
 ---
 
 ## Reflections
 
-This iteration reinforced an important lesson:
+> v1.0 focused on orientation.
+> v1.1 introduces **control, safety, and repeatability**.
 
-> **Operational confidence comes from orientation, not speed.**
-
-Before optimizing workflows, it’s critical to understand where you are and how to recover when something goes wrong.
+This marks a shift from _learning Linux navigation_ to _operating Linux systems deliberately_.
 
 ---
 
 ## Next Steps
 
-Future iterations build on this foundation by:
+Upcoming iterations will expand into:
 
-- Preserving navigation context
-- Improving efficiency
-- Introducing safe inspection tools
+- File and directory operations
+- Permissions and ownership
+- Search and filtering techniques
 
-Those improvements are captured in subsequent versions of this workcard.
+Each version continues to build incrementally.
 
 ---
 
