@@ -1,17 +1,19 @@
-# Linux Filesystem Navigation via SSH - v1.0
+# Linux Filesystem Navigation via SSH — v1.1
+
+> Previous iteration: [v1.0](https://github.com/Chetan3500/devops-portfolio/blob/Linux-v1.0-artifact/docs/linux/filesystem-navigation/README.md)
 
 ## Focus
 
-Survival navigation on a remote Linux server.
+Efficiency and safety upgrade.
 
 ---
 
 ## What I learned
 
-- Connect to a remote Linux host
-- Navigate remote systems for Logs and configuration directories
-- Difference between **Absolute paths** and **Relative paths**
-- Recover when lost inside deep directory structures
+- Preserve navigation context using directory stacks
+- Switch between multiple directories without losing orientation
+- Visualize deep directory structures before interacting with them
+- Safely inspect unknown files without executing or modifying them
 
 ---
 
@@ -21,8 +23,23 @@ Survival navigation on a remote Linux server.
 - [PDF - Live dashboard](./PDF/dashboard.tex): Comprehensive overview of the current iteration and capabilities.
 - [Worklog — Iterations & Versions](worklog.md): Detailed tracking of progress, iterations, and version history.
 - [Blog — Lessons & Insights](blog.md): Insights and takeaways from the project.
-- [Blog - dev.to](https://dev.to/chetan_tekam_3500/linux-filesystem-and-navigation-for-devops-with-practical-demo-5g36): A detailed blog post about SSH filesystem navigation for DevOps, including practical tips.
+- [Blog - dev.to](https://dev.to/chetan_tekam_3500/linux-filesystem-and-navigation-for-devops-with-practical-demo-v11-14lc): A detailed blog post about SSH filesystem navigation for DevOps, including practical tips.
 - [Trello - Workcard Progress](https://trello.com/c/0uFPMb5S/14-filesystem-navigation): Trello board tracking the workcard and milestones.
+
+Versions:
+
+- [v1.0](./PDF/v1.0.pdf)
+- [v1.1](./PDF/v1.1.pdf)
+
+---
+
+## Outcome
+
+This iteration improved my ability to:
+
+- Navigate production-like systems with confidence
+- Move repeatedly between logs, configs, and app folders
+- Avoid mistakes when working on unfamiliar filesystems
 
 ---
 
