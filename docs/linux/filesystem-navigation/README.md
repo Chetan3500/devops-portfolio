@@ -20,7 +20,7 @@ Efficiency and safety upgrade.
 ## Artifacts & Details
 
 - [Demo - Practical Demonstration](https://youtu.be/6ulATWG-vR0): Video walkthrough of the Linux filesystem navigation process.
-- [PDF - Live dashboard](./PDF/dashboard.tex): Comprehensive overview of the current iteration and capabilities.
+- [PDF - Live dashboard](./PDF/dashboard.pdf): Comprehensive overview of the current iteration and capabilities.
 - [Worklog — Iterations & Versions](worklog.md): Detailed tracking of progress, iterations, and version history.
 - [Blog — Lessons & Insights](blog.md): Insights and takeaways from the project.
 - [Blog - dev.to](https://dev.to/chetan_tekam_3500/linux-filesystem-and-navigation-for-devops-with-practical-demo-v11-14lc): A detailed blog post about SSH filesystem navigation for DevOps, including practical tips.
