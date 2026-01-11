@@ -37,6 +37,7 @@ Basic file and directory manipulation on a remote Linux host via SSH.
 - [Worklog — Iterations & Versions](worklog.md)
 - [Blog — Lessons & Insights](blog.md)
 - [Trello — Workcard Progress](https://trello.com/c/wMyc4ZtL/57-operation-on-file-and-directory)
+- Narrative [Blog](https://dev.to/chetan_tekam_3500/linux-file-directory-operations-for-devops-v10-1jbb) on [dev.to](https://dev.to/chetan_tekam_3500)
 
 ---
 
