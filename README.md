@@ -67,7 +67,7 @@ Each Epic contains:
 
 Epics represent long-term DevOps domains that are developed incrementally and maintained over time.
 
-- [Linux](docs/linux/)
+[Linux](docs/linux/) | [Git and Github](./docs/git-and-github/) | Networking | AWS | CI/CD | Docker | Kubernets | IaC | Monitoring
 
 ---
 
@@ -76,6 +76,7 @@ Epics represent long-term DevOps domains that are developed incrementally and ma
 The following Epics are under active development and updated regularly:
 
 - [Linux](docs/linux/)
+- [Git and Github](./docs/git-and-github/)
 
 > Completed Epics remain versioned and documented, but are marked as stable.
 
