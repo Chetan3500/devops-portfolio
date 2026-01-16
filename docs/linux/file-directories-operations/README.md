@@ -1,43 +1,43 @@
-# File & Directory Operations — v1.0
+# File & Directory Operations — v1.1
 
-> First iteration of this workcard.
+> Second iteration of this workcard.
 
-This iteration focuses on the **core ability to create, copy, move, inspect, and delete files and directories** on a remote Linux system.
+This iteration focuses on **safe and efficient bulk file operations** on a remote Linux system.
 
-These operations are the foundation of:
+These capabilities are critical for:
 
-- CI/CD pipelines
-- application deployments
-- container builds
-- server maintenance
+- cleaning up failed deployments
+- managing build artifacts
+- maintaining application directories
+- operating production-like servers without mistakes
 
 ---
 
 ## Focus
 
-Basic file and directory manipulation on a remote Linux host via SSH.
+Safe and efficient file and directory manipulation on a remote Linux host via SSH.
 
 ---
 
 ## What this iteration covers
 
-- Creating files and directories
-- Copying files between folders
-- Moving and renaming files
-- Deleting files
-- Inspecting file type and metadata
-- Organizing project directories
+- Using wildcards to operate on multiple files
+- Performing safe (confirm-before-delete) operations
+- Removing non-empty directories
+- Copying entire directory trees
+- Verifying files before moving or deleting
+- Cleaning up broken or unused application files
 
 ---
 
 ## Artifacts & Details
 
-- [Demo — Practical Demonstration](https://youtu.be/lCOGb0MUwfg)
+- [Demo — Practical Demonstration](https://youtu.be/YnF2tqPoVpQ)
 - [PDF — Live dashboard](./PDF/dashboard.pdf)
 - [Worklog — Iterations & Versions](worklog.md)
 - [Blog — Lessons & Insights](blog.md)
 - [Trello — Workcard Progress](https://trello.com/c/wMyc4ZtL/57-operation-on-file-and-directory)
-- Narrative [Blog](https://dev.to/chetan_tekam_3500/linux-file-directory-operations-for-devops-v10-1jbb) on [dev.to](https://dev.to/chetan_tekam_3500)
+- Narrative [Blog](https://dev.to/chetan_tekam_3500/linux-file-directory-operation-v11-2foc) on dev.to
 
 ---
 
@@ -45,20 +45,23 @@ Basic file and directory manipulation on a remote Linux host via SSH.
 
 This iteration improved my ability to:
 
-- Create and organize files for applications
-- Move and rename files without losing data
-- Copy files between directories reliably
-- Inspect unknown files before using them
-- Clean up files safely on a running system
+- Manage multiple files safely using wildcards
+- Prevent accidental deletions with confirmation flags
+- Remove directories that contain files
+- Copy directory structures reliably
+- Clean up messy or broken application folders
+- Operate with confidence on real remote systems
 
 ---
 
 ### Next iteration
 
-**v1.1 — Safe & Efficient Bulk Operations**
+**v2.0 — Environment-Aware File Operations (Cloud & Containers)**
+_(Locked until Cloud backlog begins.)_
 
 ---
 
 ## Epic Navigation
 
-← Back to [Linux Basics Epic](../README.md)
+← Back to [Linux Basics Epic](https://github.com/Chetan3500/devops-portfolio/blob/main/docs/linux/README.md)
+← Previous iteration: [v1.0](https://github.com/Chetan3500/devops-portfolio/tree/Linux-FDO-v1.0/docs/linux/file-directories-operations)
