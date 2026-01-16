@@ -33,7 +33,7 @@ This allows Linux skills to grow in a **controlled, traceable way**, just like r
 | Work Card                                                         | Current Level | Description                                                          |
 | ----------------------------------------------------------------- | ------------- | -------------------------------------------------------------------- |
 | [**Filesystem & Navigation**](./filesystem-navigation/)           | v1.1          | Moving, inspecting, and navigating Linux filesystems on remote hosts |
-| [**File & Directory Operations**](./file-directories-operations/) | v1.0          | Creating, copying, moving, deleting, and organizing files safely     |
+| [**File & Directory Operations**](./file-directories-operations/) | v1.1          | Creating, copying, moving, deleting, and organizing files safely     |
 | **Permissions & Ownership**                                       | Planned       | Controlling who can access and modify files                          |
 | **Processes & Services**                                          | Planned       | Managing running applications and services                           |
 | **Logs & Troubleshooting**                                        | Planned       | Finding and analyzing failures                                       |
